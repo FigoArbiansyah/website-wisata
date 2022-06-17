@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(candi.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+  opacity: 0.7;
+  border: 1px solid grey;
+  transition: transform 0.5s ease;
+}
+
+.logo:hover {
+  transform: translateX(-10px);
+}
+
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  transition: color 0.5s ease;
+}
+
+nav ul li a:hover {
+  color: palevioletred;
+}
+
+h2 {
+  position: absolute;
+  color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 40%;
+}
+
+.col p {
+  margin-top: 10px;
+  margin-right: -40px;
+  position: relative;
+  flex-basis: 40%;
+}
+
+.col2 {
+  flex-basis: 60%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 70px;
+  margin-bottom: 10px;
+  margin-top: px;
+}
+
+p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.diy {
+  display: flex;
+  position: relative;
+  bottom: -40px;
+  right: -200px;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.diy:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.jogja {
+  width: 300px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  margin-left: 50px;
+}
+
+
+.jogja:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+button {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  border: 0;
+  background: #fff;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+
+.card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(borobudur.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.card1 {
+  background-image: url(borobudur.jpg);
+}
+
+.card2 {
+  background-image: url(prambanan.jpg);
+}
+
+.card3 {
+  background-image: url(malioboro.jpg);
+}
+
+.card4 {
+  background-image: url(lawangsewu.jpg);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+h5 {
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+
+.card p {
+  text-shadow: 0 0 5px #999;
+  font-size: 8px;
+}
+
